@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/readersinfo';
+const REST_API_BASE_URL = 'https://proactive-elegance-production.up.railway.app/api/readersinfo';
 
 export const authenticate = async (email: string, password:string) => {
     try {
@@ -23,7 +23,7 @@ export const updateReader = async (readerid: number, readersinfo: any) => {
     try {
         const response = await axios.put(REST_API_BASE_URL + `/${readerid}`,readersinfo, {
             headers: {
-              'Content-Type': 'applicati   on/json',
+              'Content-Type': 'application/json',
             },
           });
 

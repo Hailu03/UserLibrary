@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/books';
+const REST_API_BASE_URL = 'https://proactive-elegance-production.up.railway.app/api/books';
 
 export const getAllBooks = async () => {
   try {

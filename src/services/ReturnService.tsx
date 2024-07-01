@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/return';
+const REST_API_BASE_URL = 'https://proactive-elegance-production.up.railway.app/api/return';
 
 export const returnBook = async (firstName: string, lastName: string, bookTitle: string, rentId: number, returnDate: string) => {
     try {

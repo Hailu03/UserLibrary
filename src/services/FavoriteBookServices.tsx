@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/favorite-books';
+const REST_API_BASE_URL = 'https://proactive-elegance-production.up.railway.app/api/favorite-books';
 
 export const addFavoriteBook = async (bookID: number, readerID: number) => {
     try {
