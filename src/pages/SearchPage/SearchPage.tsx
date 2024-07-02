@@ -34,7 +34,7 @@ const genres = [
     "Food and Drink", "Travel", "Philosophy"
 ];
 
-const authors = ["Jim  Murphy", "Kazuno Kohara", "Edwin Benson", "Larry Niven","Colin Dexter", 
+const authors = ["Laurence M. Hauptman", "Charlotte Fiell", "Emmanuelle Dirix", "Andy Anderson","Colin Dexter", 
     "Merlin Coverley", "Clive Gifford","Fulton J. Sheen","Lois Ehlert","Calestous Juma",
     "Gustavo Gorriti","Robert J. Shiller","Marilyn Butler","Mark Lee","B. Mark Smith","Rocky McElveen",
 ];
