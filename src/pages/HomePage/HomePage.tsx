@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../../components/Header";
 import "./HomePage.css";
 import Footer from "../../components/Footer";
@@ -59,7 +59,7 @@ const HomePage = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 justify-content-center">
                                 <div className="book-card my-5">
                                     <div className="book-img w-100">
-                                        <img src={`data:image/jpeg;base64,${book.image}`} />
+                                        <img src = {`./bookimages/${book.id}.jpg`} />
                                     </div>
                                     <div className="book-item text-center">
                                         <div className="book-item-info title">
@@ -99,7 +99,7 @@ const HomePage = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 justify-content-center">
                                 <div className="book-card my-5">
                                     <div className="book-img w-100">
-                                        <img src={`data:image/jpeg;base64,${book.image}`} />
+                                        <img src = {`./bookimages/${book.id}.jpg`} />
                                     </div>
                                     <div className="book-item text-center">
                                         <div className="book-item-info title">

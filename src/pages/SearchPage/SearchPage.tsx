@@ -396,7 +396,7 @@ const SearchPage = () => {
                                     <div className="card book-card" key={book.id}>
                                         <div className="row g-0">
                                             <div className="col-md-4">
-                                                <img src={`${book.image}`} className="img-fluid rounded-start" alt="Book Title" />
+                                                <img src={`/bookimages/${book.id}.jpg`} className="img-fluid rounded-start" alt="Book Title" />
                                             </div>
                                             <div className="col-md-8">
                                                 <div className="card-body">
